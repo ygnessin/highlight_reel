@@ -1,7 +1,7 @@
 highlight_reel
 ==============
 
-Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Supposed to work with TextMate as well, but haven't tested.
+Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested.
 
 ####Ruby
  - handle `%i` and `%I` arrays as symbols
