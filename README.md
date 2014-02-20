@@ -24,7 +24,7 @@ Getting Started
 
 Copy the included files into their respective paths:
 
-- `~/Library/Application Support/Sublime Text 2/Packages/Ruby/Ruby.tmLanguage`
-- `~/Library/Application Support/Sublime Text 2/Packages/Rails/Ruby on Rails.tmLanguage`
-- `~/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai.tmTheme`
-- `~/Library/Application Support/Sublime Text 2/Packages/User/Default.sublime-keymap`
+- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby/Ruby.tmLanguage`
+- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails/Ruby\ on\ Rails.tmLanguage`
+- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Color\ Scheme\ -\ Default/Monokai.tmTheme`
+- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default.sublime-keymap`
