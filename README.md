@@ -1,6 +1,3 @@
-highlight_reel
-==============
-
 Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested.
 
 ####Ruby
