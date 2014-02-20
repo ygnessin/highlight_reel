@@ -1,4 +1,4 @@
-Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested.
+Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested. [Sublime Docs on Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html)
 
 ####Ruby
  - handle `%i` and `%I` arrays as symbols
@@ -6,7 +6,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - add `require_relative` as a ruby keyword
 
 ####Rails 
- - add `validates` to ActiveRecord keywords
+ - add `validates` to `ActiveRecord` keywords
 
 ####Monokai Theme (Default)
  - highlight block arguments pink
