@@ -8,12 +8,13 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Supposed t
  - recognize Classes even without a method call
  - add `require_relative` as a ruby keyword
 
-####Rails 
+####Rails
  - add `validates` to ActiveRecord keywords
 
 ####Monokai Theme (Default)
  - highlight block arguments pink
  - highlight class and module declarations green
+ - highlight Instance-vars and Class-vars purple
 
 ####Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))

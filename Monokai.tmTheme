@@ -421,6 +421,33 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Instance Variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class Variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
