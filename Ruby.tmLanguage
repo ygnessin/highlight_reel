@@ -1799,12 +1799,28 @@
 					<key>name</key>
 					<string>punctuation.definition.comment.ruby</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.yardoc.tag.ruby</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>entity.yardoc.name.ruby</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>entity.yardoc.type.ruby</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:^[ \t]+)?(#).*$\n?</string>
+			<string>(?:^[ \t]+)?(#)(?:  )?(?: (@\w+)\b(?: +(\S+ +)?\[(.*)\])?)?.*$\n?</string>
 			<key>name</key>
 			<string>comment.line.number-sign.ruby</string>
 		</dict>
+
 		<dict>
 			<key>comment</key>
 			<string>

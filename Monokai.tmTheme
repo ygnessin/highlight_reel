@@ -422,6 +422,36 @@
 		</dict>
 
 		<dict>
+			<key>scope</key>
+			<string>entity.yardoc.tag.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.yardoc.name.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE8166</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.yardoc.type.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#16899F</string>
+			</dict>
+		</dict>
+
+		<dict>
 			<key>name</key>
 			<string>Instance Variable</string>
 			<key>scope</key>

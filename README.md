@@ -4,14 +4,19 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - handle `%i` and `%I` arrays as symbols
  - recognize Classes even without a method call
  - add `require_relative` as a ruby keyword
+ - recognize YARD documentation tags in comments
+ - recognize YARD variable names / data types
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
 
 ####Monokai Theme (Default)
- - highlight block arguments pink
+ - highlight block arguments pink / italicize
  - highlight class and module declarations green
  - highlight Instance-vars and Class-vars purple
+ - highlight YARD tags light gray / italicize
+ - highlight YARD variable names brown
+ - highlight YARD datatypes teal
 
 ####Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))
