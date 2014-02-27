@@ -6,6 +6,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - add `require_relative` as a ruby keyword
  - recognize YARD documentation tags in comments
  - recognize YARD variable names / data types
+ - recognize TODOs in comments
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
@@ -17,6 +18,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - highlight YARD tags light gray / italicize
  - highlight YARD variable names brown
  - highlight YARD datatypes teal
+ - invert colors on TODO comments
 
 ####Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))

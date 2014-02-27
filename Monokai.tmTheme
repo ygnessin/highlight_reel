@@ -450,6 +450,17 @@
 				<string>#16899F</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.comment.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#75715E</string>
+				<key>foreground</key>
+				<string>#272822</string>
+			</dict>
+		</dict>
 
 		<dict>
 			<key>name</key>

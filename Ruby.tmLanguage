@@ -1802,21 +1802,26 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.yardoc.tag.ruby</string>
+					<string>entity.comment.todo</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.yardoc.name.ruby</string>
+					<string>entity.yardoc.tag.ruby</string>
 				</dict>
 				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>entity.yardoc.name.ruby</string>
+				</dict>
+				<key>5</key>
 				<dict>
 					<key>name</key>
 					<string>entity.yardoc.type.ruby</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:^[ \t]+)?(#)(?:  )?(?: (@\w+)\b(?: +(\S+ +)?\[(.*)\])?)?.*$\n?</string>
+			<string>(?:^[ \t]+)?(#)(?: ?(TODO:?|todo:?))?(?:  )?(?: (@\w+)\b(?: +(\S+ +)?\[(.*)\])?)?.*$\n?</string>
 			<key>name</key>
 			<string>comment.line.number-sign.ruby</string>
 		</dict>
@@ -2504,6 +2509,22 @@
 			<key>name</key>
 			<string>punctuation.section.function.ruby</string>
 		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>\# @(\w+)\b</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.ruby</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>YARDOC tag in comment</string>
+		</dict>
+
 	</array>
 	<key>repository</key>
 	<dict>
