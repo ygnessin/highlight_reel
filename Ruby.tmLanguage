@@ -1821,7 +1821,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:^[ \t]+)?(#)(?: ?(TODO:?|todo:?))?(?:  )?(?: (@\w+)\b(?: +(\S+ +)?\[(.*)\])?)?.*$\n?</string>
+			<string>(?:^[ \t]+)?(#)(?: ?(TODO:?|todo:?))?(?:  )?(?: (@!?\w+)\b(?: +(\S+ +)?\[(.*)\])?)?.*$\n?</string>
 			<key>name</key>
 			<string>comment.line.number-sign.ruby</string>
 		</dict>
