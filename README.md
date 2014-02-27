@@ -4,9 +4,10 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - handle `%i` and `%I` arrays as symbols
  - recognize Classes even without a method call
  - add `require_relative` as a ruby keyword
- - recognize YARD documentation tags in comments
- - recognize YARD variable names / data types
- - recognize TODOs in comments
+ - recognize YARD documentation tags (`entity.yardoc.tag.ruby`)
+ - recognize YARD variable names (`entity.yardoc.name.ruby`)
+ - recognize YARD data types (`entity.yardoc.type.ruby`)
+ - recognize TODOs in comments (`entity.comment.todo`)
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
@@ -17,7 +18,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - highlight Instance-vars and Class-vars purple
  - highlight YARD tags light gray / italicize
  - highlight YARD variable names brown
- - highlight YARD datatypes teal
+ - highlight YARD data types teal
  - invert colors on TODO comments
 
 ####Keymaps
