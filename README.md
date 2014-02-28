@@ -28,9 +28,9 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
 Getting Started
 ---------------
 
-Copy the included files into their respective paths:
+Clone the repository, then from the home directory run:
+```
+bash sublime_setup.sh
+```
 
-- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby/Ruby.tmLanguage`
-- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails/Ruby\ on\ Rails.tmLanguage`
-- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Color\ Scheme\ -\ Default/Monokai.tmTheme`
-- `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default.sublime-keymap`
+Textmate Setup coming soon!
