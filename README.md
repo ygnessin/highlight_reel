@@ -1,25 +1,27 @@
 Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested. [Sublime Docs on Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html)
 
 ####Ruby
- - handle `%i` and `%I` arrays as symbols
- - recognize Classes even without a method call
- - add `require_relative` as a ruby keyword
- - recognize YARD documentation tags (`entity.yardoc.tag.ruby`)
- - recognize YARD variable names (`entity.yardoc.name.ruby`)
- - recognize YARD data types (`entity.yardoc.type.ruby`)
- - recognize TODOs in comments (`entity.comment.todo`)
+ - `%i` and `%I` arrays (symbol)
+ - Classes without method calls (class)
+ - `require_relative` (keyword)
+ - YARD documentation tags (`entity.yardoc.tag.ruby`)
+ - YARD variable names (`entity.yardoc.name.ruby`)
+ - YARD option names (`entity.yardoc.option.ruby`)
+ - YARD data types (`entity.yardoc.type.ruby`)
+ - TODO-style comment tags (`entity.comment.todo`)
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
 
 ####Monokai Theme (Default)
- - highlight block arguments pink / italicize
- - highlight class and module declarations green
- - highlight Instance-vars and Class-vars purple
- - highlight YARD tags light gray / italicize
- - highlight YARD variable names brown
- - highlight YARD data types teal
- - invert colors on TODO comments
+ - color block arguments pink / italicize
+ - color class and module declarations green
+ - color Instance-vars and Class-vars purple
+ - color YARD tags light gray / italicize
+ - color YARD variable names brown
+ - color YARD option names purple
+ - color YARD data types teal
+ - invert colors on TODO-style comments
 
 ####Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))

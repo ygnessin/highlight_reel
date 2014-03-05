@@ -443,11 +443,20 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>entity.yardoc.option.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6E61AF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>entity.yardoc.type.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#16899F</string>
+				<string>#46899F</string>
 			</dict>
 		</dict>
 		<dict>
