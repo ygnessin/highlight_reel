@@ -1,14 +1,14 @@
 Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested. [Sublime Docs on Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html)
 
 ####Ruby
- - `%i` and `%I` arrays (symbol)
- - Classes without method calls (class)
- - `require_relative` (keyword)
- - YARD documentation tags (`entity.yardoc.tag.ruby`)
- - YARD variable names (`entity.yardoc.name.ruby`)
- - YARD option names (`entity.yardoc.option.ruby`)
- - YARD data types (`entity.yardoc.type.ruby`)
- - TODO-style comment tags (`entity.comment.todo`)
+ - `%i` and `%I` arrays - symbol
+ - Classes without method calls - class
+ - `require_relative` - keyword
+ - YARD documentation tags - `entity.yardoc.tag.ruby`
+ - YARD variable names - `entity.yardoc.name.ruby`
+ - YARD option names - `entity.yardoc.option.ruby`
+ - YARD data types - `entity.yardoc.type.ruby`
+ - TODO-style comment tags - `entity.comment.todo`
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
