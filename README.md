@@ -4,6 +4,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
  - `%i` and `%I` arrays - symbol
  - Classes without method calls - class
  - `require_relative` - keyword
+ - `fail` - keyword
  - YARD documentation tags - `entity.yardoc.tag.ruby`
  - YARD variable names - `entity.yardoc.name.ruby`
  - YARD option names - `entity.yardoc.option.ruby`
@@ -12,6 +13,7 @@ Custom Ruby and Ruby On Rails syntax highlighting for Sublime Text 2. Should als
 
 ####Rails
  - add `validates` to `ActiveRecord` keywords
+ - add Rails 4 `ActionController` keywords
 
 ####Monokai Theme (Default)
  - color block arguments pink / italicize

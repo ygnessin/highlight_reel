@@ -254,7 +254,7 @@
 			<key>comment</key>
 			<string> everything being a method but having a special function is a..</string>
 			<key>match</key>
-			<string>\b(initialize|new|loop|include|extend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw|private|module_function|public|protected)\b(?![?!])</string>
+			<string>\b(initialize|new|loop|include|extend|raise|fail|attr_reader|attr_writer|attr_accessor|attr|catch|throw|private|module_function|public|protected)\b(?![?!])</string>
 			<key>name</key>
 			<string>keyword.other.special-method.ruby</string>
 		</dict>
@@ -378,6 +378,22 @@
 			<key>name</key>
 			<string>variable.other.constant.ruby</string>
 		</dict>
+
+<!-- 		<dict>
+			<key>begin</key>
+			<string>(?x)(?=def\b)(?&lt;=^|\s)def\s+ (?&gt;[a-zA-Z_]\w*(?&gt;\.|::))?(?&gt;[a-zA-Z_]\w*(?&gt;[?!]|=(?!&gt;))?|===?|&gt;[&gt;=]?|&lt;=&gt;|&lt;[&lt;=]?|[%&amp;`\/\|]|\*\*?|=?~|[-+]@?|\[\]=?\s*)\((\w+(?:\ *=\ *\S+)?)(?:,\ +(\w+(?:\ *=\ *\S+)?)(?:,\ +(\w+(?:\ *=\ *\S+)?))?(?:,\ +(\w+(?:\ *=\ *\S+)?))?(?:,\ +(\w+(?:\ *=\ *\S+)?))?(?:,\ +(\w+(?:\ *=\ *\S+)?))?)?\)</string>
+
+			<dict>
+				<key>match</key>
+				<string>\1</key>
+				<key>name</key>
+				<string>variable.parameter.function.ruby</string>
+			</dict>
+
+			<key>end</key>
+			<string>end</string>
+		</dict> -->
+
 		<dict>
 			<key>begin</key>
 			<string>(?x)
