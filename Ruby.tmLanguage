@@ -362,25 +362,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b[A-Z]\w*(?=((\.|::)[A-Z][a-z]|\[))</string>
+			<string>\b[A-Z]\w*(?=((\.|::)[A-Z]+[a-z]|\[))</string>
 			<key>name</key>
 			<string>support.class.ruby</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!class |module )\b[A-Z][a-z]\w*\b</string>
+			<string>(?&lt;!class |module )\b[A-Z]+[a-z]\w*\b</string>
 			<key>name</key>
 			<string>support.class.ruby</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=class |module )\b[A-Z][a-z]\w*\b</string>
+			<string>(?&lt;=class |module )\b[A-Z]+[a-z]\w*\b</string>
 			<key>name</key>
 			<string>entity.name.type.module.ruby</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!class |module )\b[A-Z][a-z]\w*\b</string>
+			<string>(?&lt;!class |module )\b[A-Z]+[a-z]\w*\b</string>
 			<key>name</key>
 			<string>variable.other.constant.ruby</string>
 		</dict>
