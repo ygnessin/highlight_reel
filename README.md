@@ -36,7 +36,11 @@ Getting Started
 
 Clone the repository, then from the home directory run:
 ```
-bash sublime_setup.sh
+bash sublime_2_setup.sh
+```
+or
+```
+bash sublime_3_setup.sh
 ```
 
 Textmate Setup coming soon!
