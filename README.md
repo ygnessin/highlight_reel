@@ -27,6 +27,7 @@ Custom syntax highlighting for Ruby and Ruby On Rails for Sublime Text 2. Should
 
 ####Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))
+ - Add `alt+d` as goto_definition
 
 ####Snippets
  - Don't auto-complete `:key => value` when a colon is typed
