@@ -1,5 +1,7 @@
 Custom syntax highlighting for Ruby and Ruby On Rails for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested. [Sublime Docs on Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html)
 
+NOTE: This doesn't work on Sublime 3.1 :( I'll have to find time to try to fix it.
+
 #### Ruby
  - `%i` and `%I` arrays - symbol
  - Classes without method calls - class
