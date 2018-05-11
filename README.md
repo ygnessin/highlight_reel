@@ -1,6 +1,6 @@
 Custom syntax highlighting for Ruby and Ruby On Rails for Sublime Text 2. Should also work with TextMate and Sublime Text 3, but hasn't been tested. [Sublime Docs on Syntax Definitions](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html)
 
-####Ruby
+#### Ruby
  - `%i` and `%I` arrays - symbol
  - Classes without method calls - class
  - `require_relative` - keyword
@@ -11,11 +11,11 @@ Custom syntax highlighting for Ruby and Ruby On Rails for Sublime Text 2. Should
  - YARD data types - `entity.yardoc.type.ruby`
  - TODO-style comment tags - `entity.comment.todo`
 
-####Rails
+#### Rails
  - add `validates` to `ActiveRecord` keywords
  - add Rails 4 `ActionController` keywords
 
-####Monokai Theme (Default)
+#### Monokai Theme (Default)
  - color block arguments pink / italicize
  - color class and module declarations green
  - color Instance-vars and Class-vars purple
@@ -25,11 +25,11 @@ Custom syntax highlighting for Ruby and Ruby On Rails for Sublime Text 2. Should
  - color YARD data types teal
  - invert colors on TODO-style comments
 
-####Keymaps
+#### Keymaps
  - handle `|` as a paired character (thanks to [hivehand](https://github.com/hivehand/rt_st2))
  - Add `alt+d` as goto_definition
 
-####Snippets
+#### Snippets
  - Don't auto-complete `:key => value` when a colon is typed
 
 Getting Started
